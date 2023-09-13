@@ -1,0 +1,188 @@
+.header-inner {
+  margin: 0 auto;
+  position: relative;
+
+  width: auto;
+  min-width: 320px;
+  max-width: 1300px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+
+.header-bar {
+  position: relative;
+  display: block;
+  background-color: #363636;
+  height: 55px;
+}
+
+.header-div {
+  position: relative;
+  background-color: #3c3c3c;
+  width: 3px;
+  height: 55px;
+}
+
+.header-div:after {
+  content: '';
+  width: 1px;
+  background-color: #1c1c1c;
+  position: absolute;
+  left: 1px;
+  height: 100%;
+}
+
+.header-spacer {
+  flex-grow: 1;
+}
+
+.header-button {
+  line-height: 55px;
+  padding: 0 15px;
+  position: relative;
+  height: 55px;
+}
+
+.header-button:hover:after {
+  content: '';
+  height: 3px;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 100%;
+}
+
+
+
+.header-search-bar {
+  background: #666;
+  color: #eee;
+  border-radius: 2px;
+  border: 0;
+  padding: 0 12px;
+  height: 36px;
+
+}
+.header-search {
+  padding: 0 15px;
+}
+.header-icon {
+  padding: 0 15px;
+}
+
+
+
+.section-container {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: auto;
+  min-width: 320px;
+  max-width: 1300px;
+
+  position: relative;
+  margin: 0 auto;
+  background: #dadadc;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  position: relative;
+  padding: 15px;
+
+}
+
+.col-2 {
+  flex-grow: 3;
+}
+
+.section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry {
+  height: 40px;
+  padding: 0 15px;
+  background: #e0e0e0;
+  border-top: #a8a8a8 1px solid;
+  line-height: 40px;
+}
+
+.entry:hover {
+  background: #e8e8e8;
+}
+
+.thread-entry {
+  height: 40px;
+  padding: 0 15px;
+  background: #e0e0e0;
+  border-top: #a8a8a8 1px solid;
+  line-height: 40px;
+}
+
+
+
+.first-entry-mod {
+  border-top: #a8a8a8 0px solid;
+}
+
+.entry-container {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.box-shadowed {
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #666666;
+}
+
+.entry {
+  font-weight: normal;
+  color: #3c3c3c;
+}
+
+.event-section {
+
+}
+.main-section {
+
+}
+
+.match-section {
+
+}
+
+.thread-section{
+
+}
+
+.image-entry {
+  height: 200px;
+}
+
+
+
+
